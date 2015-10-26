@@ -1,0 +1,470 @@
+
+           html,body
+           {
+                padding-left: 10px;
+                 padding-right: 10px;
+                width:100%;
+                min-width: 100%;
+           }
+
+
+            #wrap
+            {
+                width:100%;
+                
+
+            }
+            #dropd
+            {
+                width:300px;
+            }
+
+            .container1
+            {
+
+                position:absolute;
+
+            }
+            .container
+            {
+                margin-right:20px;
+            }
+            #firstrow
+            {
+                border-bottom:2px solid;
+                border-color: #98bf21;
+                box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+                /*padding: 0 20px;*/
+                border-radius: 10px;
+            }
+            h4
+            {
+                margin-left:50px;
+
+                font-family: "Georgia", Serif;
+            }
+
+            /*<ANOTHER STYLE>...................................................*/
+
+            img 
+            {
+                float: left;
+                width: 150px;
+                height: 60px;
+                margin-top:10px;
+                margin-left:50px;
+                margin-bottom:10px;
+                padding-bottom: 10px;
+
+            }
+
+            #heading {
+                background-color: 
+                position: relative;  
+                text-align:center; 
+                font-weight:bold;
+                margin-left: 200px;
+               padding-top: 20px;
+               font-size: 18px;
+
+            }
+            .header
+            {
+                background-color:  #00008B;
+                color:white;
+                padding:1px; 
+                height: 120px;    
+
+            }
+
+#suhome
+{
+    margin-left: 300px;
+    margin-bottom: 100px;
+
+
+}
+
+            #logon
+            {
+              margin-top: 90px;
+              margin-right: 30px;
+
+
+            }
+       #home
+       {
+            position: absolute;
+            margin-left: 20px;
+            width:1000px;
+            /*border: 1px solid;*/
+            margin-top: 320px;
+            padding-left:30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-color: #98bf21;
+            border-bottom:none;
+            box-shadow:2px;
+            border-radius: 5px;
+            padding-right:20px;
+       }
+#header
+{
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+}
+#p1
+{
+    font-family: "Times New Roman", Serif;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 20px;
+    margin-top:25px;
+
+
+}
+
+#p2
+{
+    font-weight: normal;
+    font-family: "Georgia", Serif;
+    font-size:18px;
+    /*display: none;*/
+
+}
+#qlinks
+{
+    font-weight: bold;
+
+}
+#qlinks li a
+{
+    z-index: 5;
+    position: absolute;
+    margin-left:0px;
+    margin-top: 10px;
+    font-family: "Georgia", Serif;
+    font-size:12px;
+   
+    text-align: left;
+}
+#date
+{
+    border-style: none;
+    margin-left: 10px;
+    width:120px;
+}
+#elects
+{
+
+    margin-right: 70px;
+   
+}
+#cloths
+{
+
+    margin-right: 125px;
+   
+}
+#station
+{
+
+    margin-right: 90px;
+   
+}
+#id_su
+{
+
+    margin-right: 90px;
+   
+}
+#ql
+{
+    
+    /*font-weight: normal;*/
+    font-family: "Georgia", Serif;
+    font-size:16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    position: absolute;
+    
+}
+#updates,#date
+{
+    color:red;
+}
+#q2
+{
+    
+    /*font-weight: normal;*/
+    font-family: "Georgia", Serif;
+    font-size:16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    position: absolute;
+    color: red;
+}
+#q3
+{
+    
+    /*font-weight: normal;*/
+    font-family: "Georgia", Serif;
+    font-size:16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    position: absolute;
+    color: red;
+}
+#news
+{
+    margin-top:50px;
+    width:200px;
+    height:280px;
+      z-index: 1;
+      margin-left: 215px;
+      position:absolute;
+}
+
+#clothing
+{
+    margin-top:50px;
+    width:200px;
+    height:280px;
+      z-index: 1;
+      margin-left: 430px;
+      position:absolute;
+}
+
+#stationery
+{
+    margin-top:50px;
+    width:200px;
+    height:280px;
+      z-index: 1;
+      margin-left: 640px;
+      position:absolute;
+}
+
+#su_id
+{
+    margin-top:50px;
+    width:200px;
+    height:280px;
+      z-index: 1;
+      margin-left: 850px;
+      position:absolute;
+}
+#others
+{
+    margin-top:50px;
+    width:200px;
+    height:280px;
+      z-index: 1;
+      margin-left: 1060px;
+      position:absolute;
+}
+#daily
+{
+    margin-top:10px;
+    width:200px;
+    height:280px;
+    z-index: 2;
+    position: absolute;
+}
+#quicklinks
+{
+    
+  
+    margin-top: 40px;
+  
+    position: absolute;
+    margin-left:0px;
+    
+    height: 250px;
+   /* border:1px solid;*/
+    /*padding-top: 10px;*/
+
+    padding-right: 10px;
+    border-color: #98bf21;
+    /*box-shadow: 0px 0px 2px rgba(0,0,0,0.15);*/
+    border-radius: 10px;
+    
+
+}
+#aboutFAO
+{
+    margin-top:30px;
+    
+}
+#aboutFAO tr
+{
+    /*display: none;*/
+}
+.glyphicon.glyphicon-arrow-right
+{
+    font-size:12px;
+    display:inline;
+    margin-right: 2px;
+}
+#appl
+{
+    display: none;
+}
+em
+{
+    color:red;
+}
+
+
+.frame {
+font:12px arial;
+width:200;
+height:200;
+border:none;
+overflow:scroll;
+border:3px solid black;
+  
+padding:5;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: right;
+  background: #eee;
+  border-bottom: 1px solid #fff;
+  border-radius: 3px;    
+}
+
+nav li {
+  float: left;          
+}
+
+nav #login {
+  border-right: 1px solid #ddd;
+  box-shadow: 1px 0 0 #fff;  
+}
+
+nav #login-trigger,
+/*nav #signup a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 #fff; 
+}*/
+
+/*nav #signup a {
+  border-radius: 0 3px 3px 0;
+}*/
+
+nav #login-trigger {
+  border-radius: 3px 0 0 3px;
+}
+
+nav #login-trigger:hover,
+nav #login .active,
+nav #signup a:hover {
+  background: #fff;
+}
+
+nav #login-content {
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: 0;
+  z-index: 999;    
+  background: #fff;
+  background-image: linear-gradient(top, #fff, #eee);  
+  padding: 15px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  border-radius: 3px 0 3px 3px;
+}
+
+nav li #login-content {
+  right: 0;
+  width: 250px;  
+}
+
+/*--------------------*/
+
+#inputs input {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin: 0 0 5px 0;
+  width: 238px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+
+#inputs input:focus {
+  background-color: #fff;
+  border-color: #e8c291;
+  outline: none;
+  box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+/*--------------------*/
+
+#login #actions {
+  margin: 10px 0 0 0;
+}
+
+#login #submit {    
+  background-color: #d14545;
+  background-image: linear-gradient(top, #e97171, #d14545);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 1px solid #7e1515;
+  float: left;
+  height: 30px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  font: bold 14px Arial, Helvetica;
+  color: #fff;
+}
+
+#login #submit:hover,
+#login #submit:focus {    
+  background-color: #e97171;
+  background-image: linear-gradient(top, #d14545, #e97171);
+} 
+
+#login #submit:active {   
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+}
+
+#login #submit::-moz-focus-inner {
+  border: none;
+}
+
+#login label {
+  float: right;
+  line-height: 30px;
+}
+
+#login label input {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}

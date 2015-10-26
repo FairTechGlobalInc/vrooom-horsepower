@@ -1,0 +1,15 @@
+body{
+	padding-top:340px;
+}
+#form{
+	background: #C1CDCD;
+	margin-right: 100px;
+	margin-left: 400px;
+	padding-top: 20px;
+	text-align: center;
+	width: 470px;
+	padding-bottom: 10px;
+}
+.form-control{
+	width: 170px;;
+}

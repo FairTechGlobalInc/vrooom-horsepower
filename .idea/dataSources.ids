@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - horse_power@localhost" uuid="c7ad3845-774f-45a3-8e51-bf693ab140e8">
+    <database-info product="MySQL" version="5.6.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="horse_power"/>
+    <table name="adminregistration" schema="" catalog="horse_power" type="TABLE">
+      <column name="AdminID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Username" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="FirstName" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="MiddleName" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="LastName" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Password" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Email" sqlType="VARCHAR" precision="120" scale="0" nullable="false" jdbcType="12"/>
+      <column name="IDNumber" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="PhoneNumber" sqlType="VARCHAR" precision="15" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="AdminID"/>
+    </table>
+    <table name="carregistration" schema="" catalog="horse_power" type="TABLE">
+      <column name="CarID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CompanyID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="Color" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Price" sqlType="DOUBLE" precision="10" scale="2" nullable="false" jdbcType="8"/>
+      <column name="Transmission" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Engine" sqlType="VARCHAR" precision="60" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Make" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Model" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Year" sqlType="YEAR" precision="0" scale="0" nullable="false" jdbcType="91"/>
+      <column name="Location" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="maximumdays" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="maximumweeks" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="ChaufferAvailability" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
+      <column name="PassangerCapacity" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="CargoCapacity" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="CarID"/>
+    </table>
+    <table name="companyregistration" schema="" catalog="horse_power" type="TABLE">
+      <column name="CompanyID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CompanyName" sqlType="VARCHAR" precision="150" scale="0" nullable="false" jdbcType="12"/>
+      <column name="website" sqlType="VARCHAR" precision="250" scale="0" nullable="true" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="150" scale="0" nullable="false" jdbcType="12"/>
+      <column name="PhoneNumber" sqlType="VARCHAR" precision="150" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="CompanyID"/>
+    </table>
+    <table name="companystaff" schema="" catalog="horse_power" type="TABLE">
+      <column name="StaffID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Username" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Password" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="FirstName" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="MiddleName" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="LastName" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="CompanyID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="Role" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="StaffID"/>
+    </table>
+    <table name="hire" schema="" catalog="horse_power" type="TABLE">
+      <column name="HireID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="StartDate" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="EndDate" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="DaysHired" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="CarID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="HireID"/>
+    </table>
+    <table name="loginattempts" schema="" catalog="horse_power" type="TABLE">
+      <column name="AttemptID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Timestamp" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="UserID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="AttemptID"/>
+    </table>
+    <table name="subscriptions" schema="" catalog="horse_power" type="TABLE">
+      <column name="SubscriptionID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CompanyID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="PaymentID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="PaymentDate" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="StartDate" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="EndDate" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="Length" sqlType="VARCHAR" precision="15" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="SubscriptionID"/>
+    </table>
+    <table name="userregistration" schema="" catalog="horse_power" type="TABLE">
+      <column name="UserID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Username" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="FirstName" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="MiddleName" sqlType="VARCHAR" precision="60" scale="0" nullable="true" jdbcType="12"/>
+      <column name="LastName" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="IDNumber" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="DriversLicence" sqlType="VARCHAR" precision="18" scale="0" nullable="false" jdbcType="12"/>
+      <column name="DateOfBirth" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <primary-key name="PRIMARY" columns="UserID"/>
+      <index name="DriversLicence" unique="true" columns="DriversLicence"/>
+      <index name="IDNumber" unique="true" columns="IDNumber"/>
+    </table>
+    <table name="watchlist" schema="" catalog="horse_power" type="TABLE">
+      <column name="WatchlistID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Date" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="CarID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="WatchlistID"/>
+    </table>
+  </data-source>
+</component>
